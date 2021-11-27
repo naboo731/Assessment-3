@@ -108,4 +108,6 @@ img {
 	background-color: rgb(10, 10, 107);
 	color: white;
 	border-radius: 30px;
+	height: 50px;
+	width: 300px;
 }
