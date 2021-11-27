@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-	border-bottom: 2px solid orange;
+	border-bottom: 2px solid rgb(247, 192, 90);
 }
 
 ol {
@@ -21,11 +21,11 @@ ol {
 }
 
 a {
-	color: orange;
+	color: rgb(247, 192, 90);
 }
 
 a:visited {
-	color: crimson;
+	color: rgb(108, 94, 240);
 }
 
 
@@ -71,4 +71,41 @@ img {
 #three-sections {
 	position: relative;
 	bottom: 255px;
+}
+
+#midt-img {
+	position: relative;
+	right: 350px;
+	bottom: 100px;
+}
+
+#info-section {
+	position: relative;
+	bottom: 350px;
+}
+
+#main-street-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#parks-eats-section {
+	position: relative;
+	bottom: 330px;
+}
+
+#mid-btn {
+	cursor: pointer;
+	background-color: rgb(10, 10, 107);
+	color: white;
+	border-radius: 30px;
+}
+
+#random-btn {
+	cursor: pointer;
+	background-color: rgb(10, 10, 107);
+	color: white;
+	border-radius: 30px;
 }
