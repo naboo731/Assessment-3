@@ -9,5 +9,5 @@ const restArray = [crookedHam, cantwell, twoStones, metroPub, sushiYama, carusos
 
 randomBtn.addEventListener("click", () => {
     const random = Math.floor(Math.random() * restArray.length)
-    console.log(random, restArray[random])
+    alert(restArray[random])
 })
